@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+   <header>
+    <h1>Health Hub</h1>
+
+   </header>
+     <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="recipies">Recipes</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+      
+    
+      <main>
+        <section id="home">
+          <h1>Welcome to Health Hub</h1>
+          <p>Discover the best recipes for a healthy lifestyle.</p>
+        </section>
+    
+        <section id="about">
+          <h2>About Us</h2>
+          <p>Learn about our mission to promote health and wellness through delicious food.</p>
+        </section>
+    
+        <section id="recipes">
+          <h2>Our Recipes</h2>
+          <div class="recipe-card">
+            <h3>Recipe Name</h3>
+            <img src="recipe-image.jpg" alt="Recipe Image">
+            <p>Description of the recipe.</p>
+          </div>
+        </section>
+    
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+    
+      <footer>
+        <p>&copy; 2023 Health & Food</p>
+      </footer>
+    </div>
+</body>
+</html>
